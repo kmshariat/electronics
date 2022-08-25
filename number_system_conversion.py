@@ -13,3 +13,7 @@ def b2d(number):
     number = number//10
     i += 1
   print(decimal)
+
+#binary to decimal number conversion using format specifier 
+def b2d2(number):
+  print('{0:b}'.format(number))
